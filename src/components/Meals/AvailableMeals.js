@@ -12,7 +12,7 @@ export default function AvailableMeals() {
   useEffect(() => {
     const fetchMeals = async () => {
       const res = await fetch(
-        "https://food-order-9a4d9-default-rtdb.asia-southeast1.firebasedatabase.app/meals.json"
+        "https://react-meals-ddb89-default-rtdb.asia-southeast1.firebasedatabase.app/meals.json"
       );
       if (!res.ok) throw new Error("Something went wrong!");
 

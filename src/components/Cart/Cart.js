@@ -32,7 +32,7 @@ export default function Cart(props) {
     try {
       setIsSubmitting(true);
       const res = await fetch(
-        "https://food-order-9a4d9-default-rtdb.asia-southeast1.firebasedatabase.app/orders.json",
+        "https://react-meals-ddb89-default-rtdb.asia-southeast1.firebasedatabase.app/orders.json",
         {
           method: "POST",
           body: JSON.stringify({
